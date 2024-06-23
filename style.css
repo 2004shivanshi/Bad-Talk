@@ -1,0 +1,70 @@
+body{
+    background: url("./assets/background.avif");
+    background-size: cover;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.content{
+    display: flex;
+}
+
+.first{
+    /* border: 2px solid white; */
+    width: 45%;
+    height: 87vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.second{
+    /* border: 2px solid white; */
+    width: 55%;
+    height: 87vh;
+}
+
+.image-main{
+    position: relative;
+    left: 8%;
+    top: 13%;  
+    height: 25rem;
+    width: 35rem;  
+    border: 10px solid white;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.img{
+    height: 6rem;
+    width: 6rem;
+}
+
+.img2{
+    height: 6rem;
+    width: 4.5rem;
+}
+
+.image{
+    display: flex;
+    /* border: 2px solid white; */
+    height: auto;
+    width: 40rem;
+    margin: 3rem;
+}
+
+.info{
+    color: white;
+    /* border: 2px solid white; */
+    margin-left: 2rem;
+}
+
+.info h2{
+    color: rgb(228, 28, 28);
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
