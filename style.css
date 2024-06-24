@@ -1,70 +1,102 @@
-body{
-    background: url("./assets/background.avif");
-    background-size: cover;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+body {
+    background: linear-gradient(to right, #434343 0%, black 100%); 
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.content{
+.content {
     display: flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 30px;
 }
 
-.first{
-    /* border: 2px solid white; */
-    width: 45%;
-    height: 87vh;
-    justify-content: center;
-    align-items: center;
+.first, .second {
+    width: 100%;
 }
 
-.second{
-    /* border: 2px solid white; */
-    width: 55%;
-    height: 87vh;
-}
-
-.image-main{
+.image-main {
     position: relative;
-    left: 8%;
-    top: 13%;  
-    height: 25rem;
-    width: 35rem;  
+    left: 50%;
+    top: 13%;
+    height: auto;
+    width: 80%;
+    max-width: 35rem;
+    transform: translateX(-50%);
     border: 10px solid white;
+    margin: 0 auto;
 }
 
-.heading{
+.heading {
     color: white;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: larger;
 }
 
-.img{
+.img, .img2 {
     height: 6rem;
-    width: 6rem;
+    width: auto;
+    max-width: 100%;
 }
 
-.img2{
-    height: 6rem;
-    width: 4.5rem;
-}
-
-.image{
+.image {
     display: flex;
-    /* border: 2px solid white; */
-    height: auto;
-    width: 40rem;
-    margin: 3rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
 }
 
-.info{
+.info {
     color: white;
-    /* border: 2px solid white; */
-    margin-left: 2rem;
+    text-align: center;
+    margin-top: 1rem;
 }
 
-.info h2{
+.info h2 {
     color: rgb(228, 28, 28);
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .content {
+        flex-direction: row;
+    }
+    
+    .first, .second {
+        width: 45%;
+    }
+
+    .image {
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .info {
+        text-align: left;
+        margin-left: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .first, .second {
+        width: 50%;
+    }
+
+    .image-main {
+        height: 25rem;
+        width: 35rem;
+        top: 10%;
+        left: 0;
+        transform: none;
+        margin: 0;
+    }
 }
