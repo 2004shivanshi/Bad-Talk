@@ -1,14 +1,14 @@
 
-*{
+body{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: black;
+  background: linear-gradient(rgb(14, 13, 13),rgb(27, 25, 25));
 }
 
 .app{
-    width: 90%;
+    width: 95%;
     margin: auto;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial,sans-serif;
     

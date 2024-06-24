@@ -8,15 +8,15 @@
   align-items: center;
   margin-top: 1rem;
   height: 4rem;
- background: black;
   padding: 0 1rem;
-  position: sticky; /* Make the navbar sticky */
-  top: 0; /* Stick the navbar to the top */
-  z-index: 10; /* Ensure the navbar stays above other content */
+  position: sticky; 
+  top: 0;
+  z-index: 10; 
+  backdrop-filter: blur(10px); 
 }
 
 .Nav_left img {
-  height: 40px; /* Adjust as necessary */
+  height: 40px; 
 }
 
 .Nav_center {
@@ -30,7 +30,7 @@
 .Nav_center ul {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
   list-style: none;
   
 }
@@ -44,27 +44,62 @@
   opacity: 1;
 }
 
+.Nav_center li:active {
+  transform: scale(0.91);
+  
+  
+}
+
 .Nav_right button {
-  padding: 8px 14px;
+  padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   background-color: tomato;
   cursor: pointer;
+  transform: scale(0.91);
+  font-size:  1.1rem;
+  
+
 }
+
+
+.Nav_right button:active{
+  transform: scale(0.85);
+  transition: .5s;
+}
+
 
 .Nav_toggler {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.5rem;
   cursor: pointer;
-  
-  
+  padding: 2px 8px;
+  margin: 10px;
+  background: linear-gradient(to right, rgb(218, 88, 65), rgba(179, 75, 18, 0.954)); 
+  color: white;
+  border: 1px solid rgb(117, 23, 7); 
+  border-radius: .5rem;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  display: none;
 }
 
-/* Media Queries for responsiveness */
+
+.Nav_toggler:hover {
+  background-color: rgb(148, 76, 64);
+  color: #fff;
+}
+
+.Nav_toggler:active {
+  transform: scale(0.91);
+}
+
+
 @media (max-width: 768px) {
   .Nav_center {
     position: absolute;
-    top: 60px; /* Position below the navbar */
+    top: 60px; 
     left: 0;
     width: 100%;
     flex-direction: column;
@@ -77,7 +112,7 @@
   }
 
   .Nav_center.open {
-    max-height: 200px; /* Adjust as needed */
+    max-height: 300px; 
     opacity: 1;
   }
 
@@ -87,11 +122,15 @@
     width: 100%;
     padding: 0;
     margin: 0;
+    gap: 0;
+
+  
   }
 
   .Nav_center li {
     width: 100%;
     text-align: center;
+  padding: .8rem;
   }
 
   .Nav_right {
