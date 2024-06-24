@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './Navbar.css';
+import React, { useState } from "react";
+import "./Navbar.css";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,11 +9,11 @@ function Navbar() {
   };
 
   return (
-    <div className='Navbar'>
-      <div className='Nav_left'>
+    <div className="Navbar">
+      <div className="Nav_left">
         <img src="/src/assets/Vector1.png" alt="Logo" />
       </div>
-      <div className={`Nav_center ${isOpen ? 'open' : ''}`}>
+      <div className={`Nav_center ${isOpen ? "open" : ""}`}>
         <ul>
           <li>Home</li>
           <li>About Us</li>
@@ -22,11 +22,11 @@ function Navbar() {
           <li>Contact Us</li>
         </ul>
       </div>
-      <div className='Nav_right'>
+      <div className="Nav_right">
         <button>Register</button>
       </div>
-      <div className='Nav_toggler' onClick={toggleNavbar}>
-      &#9776;
+      <div className="Nav_toggler" onClick={toggleNavbar}>
+        &#9776;
       </div>
     </div>
   );
