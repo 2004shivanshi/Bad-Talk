@@ -1,0 +1,88 @@
+.event_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text within the container */
+    padding: 1rem; /* Add padding for spacing */
+  }
+  
+  .event_details h1 {
+    margin: 0.5rem 0; /* Add some margin between the headings */
+    font-size: 2.8rem;
+  }
+  
+  .breakdown {
+    margin-top: 1rem;
+  }
+  
+  .event_details img {
+    margin: 1rem 0; /* Add margin for spacing */
+    max-width: 40%;
+    border-radius: 1rem;
+    
+  }
+  
+  .event_details h2 {
+    margin-top: 1rem;
+  }
+  
+  .event_details p {
+    margin: 0.5rem 0;
+  }
+  
+  .event_details button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+    box-shadow: 0 0 5px tomato;
+  }
+
+  .event_details button:hover{
+    letter-spacing: .5px;
+    transition: .1s;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .event_details {
+      padding: 0.5rem; /* Adjust padding for smaller screens */
+    }
+  
+    .event_details img {
+      max-width: 90%; /* Adjust image size for smaller screens */
+    }
+  
+    .event_details button {
+      font-size: 0.9rem; /* Adjust button font size for smaller screens */
+      padding: 0.7rem 1.2rem; /* Adjust button padding for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .event_details h1 {
+      font-size: 1.5rem; /* Adjust heading font size for very small screens */
+    }
+  
+    .event_details h2 {
+      font-size: 1.2rem; /* Adjust subheading font size for very small screens */
+    }
+  
+    .event_details p {
+      font-size: 1rem; /* Adjust paragraph font size for very small screens */
+    }
+    .event_details img{
+      height: max(80vw);
+    }
+  
+    .event_details button {
+      font-size: 0.8rem; /* Adjust button font size for very small screens */
+      padding: 0.6rem 1rem; /* Adjust button padding for very small screens */
+    }
+  }
+  
