@@ -5,8 +5,9 @@ import './App.css'
 import About from './component/AboutUs/About'
 import Footer from './component/Footer/Footer'
 
-import Navbar from "./components/Navbar/Navbar";
-import EventDetails from "./components/EventDetails/EventDetails";
+import Navbar from "./component/Navbar/Navbar";
+import EventDetails from "./component/EventDetails/EventDetails";
+import WhatIsBad from './component/Whatisbad/WhatIsBad'
 
 
 function App() {
@@ -14,8 +15,12 @@ function App() {
 
   return (
     <>
-     <Navbar/>
-     <EventDetails/>
+    <div className='app'>
+    <Navbar/>
+    <EventDetails/>
+    <WhatIsBad/>
+    </div>
+
     <About/>
      <Footer/>
     </>

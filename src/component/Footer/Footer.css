@@ -41,18 +41,10 @@
       padding-bottom: 80px;
     background-image: url(../images/cards/v748-toon-111.png);
   }
-  .logo-footer{
-    /* max-width: 300px; */
-  }
-  .social-links{
-    /* display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; */
   
-  }
+ 
   .social-links h2{
-   
+   color: #817c7c;
     font-size: 20px;
       font-weight: 600;
   }
@@ -83,7 +75,7 @@
     list-style: none;
   }
   .useful-link h2{
-    
+    color: #817c7c;
     font-size: 20px;
       font-weight: 600;
   }
@@ -100,13 +92,13 @@
     color: #000;
   }
   .address h2{
-  
+    color: #817c7c;
     font-size: 20px;
       font-weight: 600;
   }
   
   .address-links li a{
-    color: #303030;
+    color: #817c7c;
       font-size: 15px;
       font-weight: 500;
     color: #777777;
@@ -118,6 +110,7 @@
     font-weight: 500;
       font-size: 15px;
     display: flex;
+    color: #817c7c;
   }
   .address-links{
         line-height: 32px;
