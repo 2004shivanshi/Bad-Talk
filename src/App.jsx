@@ -8,6 +8,7 @@ import Footer from './component/Footer/Footer'
 import Navbar from "./component/Navbar/Navbar";
 import EventDetails from "./component/EventDetails/EventDetails";
 import WhatIsBad from './component/Whatisbad/WhatIsBad'
+import Slide from './component/team/Slide'
 
 
 function App() {
@@ -19,9 +20,11 @@ function App() {
     <Navbar/>
     <EventDetails/>
     <WhatIsBad/>
+    <Slide/>
     </div>
 
     <About/>
+    
      <Footer/>
     </>
   )
