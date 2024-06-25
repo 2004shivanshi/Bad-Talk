@@ -1,0 +1,222 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+.heading {
+  color: red; /* Text color */
+  text-align: center; /* Center align the text */
+  font-size: 36px; /* Font size */
+  font-weight: bold; /* Bold text */
+  margin-top: 20px; /* Top margin */
+  margin-bottom: 20px; /* Bottom margin */
+  padding: 10px; /* Padding */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Letter spacing */
+}
+
+body {
+  font-family: 'Poppins ';
+  background-color: #14161b; /* Dark background color */
+  color: white; /* Text color */
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 75%; /* Card width is 75% of the parent container */
+  margin: auto; /* Centers the card horizontally */
+  padding: 20px; /* Adds internal padding around the card content */
+}
+
+.team-heading {
+  text-align: left; /* Aligns the heading to the left */
+
+  font-size: 24px; /* Adjust font size */
+  font-weight: bold; /* Makes the heading bold */
+  margin-bottom: 20px; /* Adds space below the heading */
+  margin-left: 25px;
+}
+
+.tech-team-heading {
+  color: white; /* Changes text color to white */
+}
+
+.inside {
+  margin-top: 20px; /* Adds margin space on top */
+}
+
+.custom-card {
+  display: flex; /* Flex container */
+  flex-direction: column; /* Arranges items vertically */
+  align-items: center; /* Centers items horizontally */
+  position: relative; /* Allows absolute positioning of child elements */
+}
+
+.custom-image-container {
+  width: 145px; /* Adjusted width for small screens (mobile) */
+  height: 145px; /* Adjusted height for small screens (mobile) */
+  max-width: 100%; /* Prevents image overflow */
+  max-height: 100%; /* Prevents image overflow */
+  display: flex; /* Flex container */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  overflow: hidden; /* Hides overflow */
+  border-radius: 50%; /* Rounds the container into a circle */
+  margin-bottom: 10px; /* Adds margin space below the container */
+  border: 5px solid #fff; /* Adds a white border */
+}
+
+.custom-image {
+  width: 100%; /* Ensures the image fills the container */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Scales the image while preserving its aspect ratio */
+  border-radius: 50%; /* Rounds the image into a circle */
+  transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.additional-content {
+  text-align: center; /* Centers text horizontally */
+  color: white; /* Text color */
+  margin-top: 10px; /* Adds space above the name */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 640px) {
+  .card {
+    width: 90%; /* Adjusted width for smaller screens */
+  }
+}
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+.heading {
+  color: red;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #14161b; /* Dark background color */
+  color: white; /* Text color */
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 90%; /* Default width for screens wider than 1024px */
+  margin: auto; /* Centers the card horizontally */
+  padding: 20px; /* Adds internal padding around the card content */
+}
+
+.team-heading {
+  text-align: left; /* Aligns the heading to the left */
+  font-size: 24px; /* Adjust font size */
+  font-weight: bold; /* Makes the heading bold */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+.tech-team-heading {
+  color: white; /* Changes text color to white */
+}
+
+.inside {
+  margin-top: 20px; /* Adds margin space on top */
+}
+
+.custom-card {
+  display: flex; /* Flex container */
+  flex-direction: column; /* Arranges items vertically */
+  align-items: center; /* Centers items horizontally */
+  position: relative; /* Allows absolute positioning of child elements */
+}
+
+.custom-image-container {
+  width: 145px; /* Adjusted width for small screens (mobile) */
+  height: 145px; /* Adjusted height for small screens (mobile) */
+  max-width: 100%; /* Prevents image overflow */
+  max-height: 100%; /* Prevents image overflow */
+  display: flex; /* Flex container */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  overflow: hidden; /* Hides overflow */
+  border-radius: 50%; /* Rounds the container into a circle */
+  margin-bottom: 10px; /* Adds margin space below the container */
+  border: 5px solid #fff; /* Adds a white border */
+}
+
+.custom-image {
+  width: 100%; /* Ensures the image fills the container */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Scales the image while preserving its aspect ratio */
+  border-radius: 50%; /* Rounds the image into a circle */
+  transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.additional-content {
+  text-align: center; /* Centers text horizontally */
+  color: white; /* Text color */
+  width: 145px; /* Same width as the image container */
+}
+
+/* Media queries for larger screens (laptops) */
+@media (min-width: 768px) {
+  .custom-image-container {
+    width: 230px; /* Adjusted width for laptops */
+    height: 230px; /* Adjusted height for laptops */
+  }
+  .additional-content {
+    width: 230px; /* Same width as the image container for laptops */
+  }
+}
+
+@media (max-width: 1024px) {
+  .custom-image-container {
+    width: 200px; /* Adjusted width for tablets */
+    height: 200px; /* Adjusted height for tablets */
+  }
+  .additional-content {
+    width: 200px; /* Same width as the image container for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-image-container {
+    width: 170px; /* Adjusted width for small tablets */
+    height: 170px; /* Adjusted height for small tablets */
+  }
+  .additional-content {
+    width: 170px; /* Same width as the image container for small tablets */
+  }
+}
+
+@media (max-width: 640px) {
+  .custom-image-container {
+    width: 145px; /* Adjusted width for mobile */
+    height: 145px; /* Adjusted height for mobile */
+  }
+  .additional-content {
+    width: 145px; /* Same width as the image container for mobile */
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .card {
+    width: 80%; /* Adjusted width for medium screens */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    width: 70%; /* Adjusted width for larger screens */
+  }
+}
+
+@media (min-width: 1025px) {
+  .card {
+    width: 90%; /* Default width for screens wider than 1024px */
+  }
+}
