@@ -2,7 +2,7 @@ import React from 'react'
 import "./WhatIsBad.css"
 export default function WhatIsBad() {
   return (
-    <div style={{backgroundColor:"#000", width:"100%"}}>
+    <div style={{ width:"100%"}}>
       
 
       <div className="heading">

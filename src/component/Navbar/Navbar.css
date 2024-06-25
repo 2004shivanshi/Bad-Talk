@@ -31,7 +31,7 @@
   opacity: 0.5;
   cursor: pointer;
   color: #fff;
-
+  transition: opacity 0.3s ease, transform 0.2s ease;
 }
 
 .Nav_center a:hover {
@@ -45,16 +45,21 @@
 .Nav_right button {
   padding: 10px 20px;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   background-color: tomato;
   cursor: pointer;
-  transform: scale(0.91);
   font-size: 1.1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Nav_right button:hover {
+  background-color: darkred;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .Nav_right button:active {
   transform: scale(0.85);
-  transition: 0.5s;
+  transition: transform 0.1s ease;
 }
 
 .Nav_toggler {
@@ -69,17 +74,19 @@
   color: white;
   border: 1px solid rgb(117, 23, 7);
   border-radius: 0.5rem;
-  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
   display: none;
 }
 
 .Nav_toggler:hover {
   background-color: rgb(148, 76, 64);
   color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .Nav_toggler:active {
   transform: scale(0.91);
+  transition: transform 0.1s ease;
 }
 
 @media (max-width: 768px) {
@@ -102,13 +109,12 @@
     opacity: 1;
     gap: 0;
     background: linear-gradient(rgb(14, 13, 13), rgb(27, 25, 25));
-  
   }
 
   .Nav_center a {
     width: 100%;
     text-align: center;
-    padding: .8rem 0;
+    padding: 0.8rem 0;
   }
 
   .Nav_right {

@@ -6,7 +6,6 @@
 
 body {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    background-color: #000;
 }
 
 .image {
@@ -16,7 +15,7 @@ body {
 }
 
 .AboutUsContainer {
-    background: url(assets/background.avif);
+
     background-size: cover;
     background-position: center;
     color: white;
