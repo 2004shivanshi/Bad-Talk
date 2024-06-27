@@ -1,6 +1,7 @@
 import React from "react";
 import "./EventDetails.css";
 import event from "../../assets/event.jpg"
+
 function EventDetails() {
   return (
     <div className="event_details">

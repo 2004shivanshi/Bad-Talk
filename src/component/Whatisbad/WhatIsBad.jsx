@@ -1,5 +1,10 @@
 import React from 'react'
 import "./WhatIsBad.css"
+import B from "./assets/B.png" 
+import A from "./assets/A.png"
+import D from "./assets/D.png"
+import background from "./assets/background.avif"
+import image from "./assets/img1.jpg"
 export default function WhatIsBad() {
   return (
     <div style={{ width:"100%"}}>
@@ -10,11 +15,11 @@ export default function WhatIsBad() {
     </div>
     <div className="content">
         <div className="first">
-            <img src="./assets/img1.jpg" alt="img" className="image-main"/>
+            <img src={image} alt="img" className="image-main"/>
         </div>
         <div className="second" style={{display:"flex", flexDirection:"column"}}>
             <div className="image">
-                <img src="./assets/B.png" className="img"/>
+                <img src={B} className="img"/>
                 <div className="info">
                     <h2>Breakdown</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae a
@@ -23,7 +28,7 @@ export default function WhatIsBad() {
                 </div>
             </div>
             <div className="image">
-                <img src="./assets/A.png" className="img2"/>
+                <img src={A} className="img2"/>
                 <div className="info">
                     <h2>Analysis</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae a
@@ -32,7 +37,7 @@ export default function WhatIsBad() {
                 </div>
             </div>
             <div className="image">
-                <img src="./assets/D.png" className="img"/>
+                <img src={C}className="img"/>
                 <div className="info">
                     <h2>Decision</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae a
