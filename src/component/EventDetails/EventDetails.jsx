@@ -1,6 +1,6 @@
 import React from "react";
 import "./EventDetails.css";
-
+import event from "../../assets/event.jpg"
 function EventDetails() {
   return (
     <div className="event_details">
@@ -10,7 +10,7 @@ function EventDetails() {
         </h1>
         <h1 className="decision">DECISION</h1>
       </div>
-      <img src="/src/assets/event.jpg" alt="Event" />
+      <img src={event} alt="Event" />
       <p>
         <b>Event Venue</b> - Audi-2 IPS Academy Rajendra Nagar, Indore
       </p>
