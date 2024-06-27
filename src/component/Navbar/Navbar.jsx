@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="Nav_left">
-        <img src={logo}alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
       <div className={`Nav_center ${isOpen ? "open" : ""}`}>
         <a href="#home">Home</a>

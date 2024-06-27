@@ -3,7 +3,7 @@ import "./WhatIsBad.css"
 import B from "./assets/B.png" 
 import A from "./assets/A.png"
 import D from "./assets/D.png"
-import background from "./assets/background.avif"
+// import background from "./assets/background.avif"
 import image from "./assets/img1.jpg"
 export default function WhatIsBad() {
   return (
@@ -37,7 +37,7 @@ export default function WhatIsBad() {
                 </div>
             </div>
             <div className="image">
-                <img src={C}className="img"/>
+                <img src={D}className="img"/>
                 <div className="info">
                     <h2>Decision</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae a
