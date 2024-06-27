@@ -6,7 +6,7 @@ export default function WhatIsBad() {
       
 
       <div className="heading">
-        <h1>WHAT DOES <font color="red">B.A.D.</font> MEAN?</h1>
+        <h2>WHAT DOES  <span style={{color: "rgba(255, 0, 43, 0.874)"}}>B.A.D</span> MEAN?</h2>
     </div>
     <div className="content">
         <div className="first">

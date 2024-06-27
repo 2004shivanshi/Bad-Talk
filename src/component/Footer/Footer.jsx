@@ -64,7 +64,7 @@ export default function Footer() {
   
     <section id="copy-right">
       <div className="copy-right-sec"><i className="fa-solid fa-copyright"></i>  
-        <a href="#">lorem ispum</a> © Copyright bad talk. All Rights Reserved
+        <a href="#">Bad Talks</a> © Copyright bad talk. All Rights Reserved
 
 
       </div>

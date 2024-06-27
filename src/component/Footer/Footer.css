@@ -24,7 +24,7 @@
     
   }
   #footer{
-    background: #cbb9b9;
+   
       padding: 3rem;
     /* padding-top: 5rem; */
     padding-top: 7rem;
@@ -43,6 +43,7 @@
   
  
   .social-links h2{
+    margin-bottom: 8px;
    color: #817c7c;
     font-size: 20px;
       font-weight: 600;
@@ -67,14 +68,15 @@
     color: #777777;
   }
   .social-icons a:hover{
-    color: #000;
+    color: #fff;
   }
   
   li{
     list-style: none;
   }
   .useful-link h2{
-    color: #817c7c;
+    margin-bottom: 8px;
+    color: #777777;
     font-size: 20px;
       font-weight: 600;
   }
@@ -82,22 +84,22 @@
  
   
   .use-links li a{
-    color: #303030;
+    color: #777777;
       font-size: 15px;
       font-weight: 500;
-    color: #7f7b7b;
+    /* color: #7f7b7b; */
   }
   .use-links li a:hover{
-    color: #000;
+    color: #fff;
   }
   .address h2{
     color: #817c7c;
     font-size: 20px;
       font-weight: 600;
+      margin-bottom: 8px;
   }
   
   .address-links li a{
-    color: #817c7c;
       font-size: 15px;
       font-weight: 500;
     color: #777777;
@@ -117,7 +119,7 @@
   }
   .copy-right-sec{
     padding: 1rem;
-    background-color: #777777;
+    /* background-color: #777777; */
       color: #fff;
       text-align: center;
   }

@@ -17,8 +17,14 @@ function EventDetails() {
       <p>
         <b>Event Date</b> - 08 August 2024
       </p>
-      <button>Register</button>
+      <button >
+  Register
+</button>
+
+
     </div>
+
+    
   );
 }
 
