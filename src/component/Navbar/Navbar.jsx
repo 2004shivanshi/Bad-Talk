@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import "./Navbar.css";
-
+import logo from "../../assets/Vector1.png"
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="Nav_left">
-        <img src="/src/assets/Vector1.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
       <div className={`Nav_center ${isOpen ? "open" : ""}`}>
         <a href="#home">Home</a>

@@ -83,7 +83,20 @@ export default function Footer() {
             </div>
           </div>
         </div>
+<<<<<<< HEAD
       </footer>
+=======
+      </div>
+
+    </footer>
+  
+    <section id="copy-right">
+      <div className="copy-right-sec"><i className="fa-solid fa-copyright"></i>  
+        <a href="#">Bad Talks</a> © Copyright bad talk. All Rights Reserved
+
+
+      </div>
+>>>>>>> 2999372608e1a90ad7c2fb3fa05a14a56758d4cf
 
       <section id="copy-right">
         <div className="copy-right-sec">

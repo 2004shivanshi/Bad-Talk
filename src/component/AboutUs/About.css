@@ -10,6 +10,7 @@ body {
 }
 
 .image {
+<<<<<<< HEAD
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -18,7 +19,14 @@ body {
 
 .image:hover {
   transform: scale(1.1); /* Example: Enlarge image on hover */
+=======
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+>>>>>>> 2999372608e1a90ad7c2fb3fa05a14a56758d4cf
 }
+
 
 .AboutUsContainer {
   background-size: cover;
@@ -58,10 +66,18 @@ body {
 }
 
 .AboutUsInnerContainer {
+<<<<<<< HEAD
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 20px;
+=======
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px;
+>>>>>>> 2999372608e1a90ad7c2fb3fa05a14a56758d4cf
 }
 
 .AboutUs {
