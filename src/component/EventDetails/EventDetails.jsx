@@ -25,19 +25,8 @@ function EventDetails() {
       <p>
         <b>Event Date</b> - 08 August 2024
       </p>
-<<<<<<< HEAD
       <button onClick={handleRegister}>Register</button>
     </section>
-=======
-      <button >
-  Register
-</button>
-
-
-    </div>
-
-    
->>>>>>> 2999372608e1a90ad7c2fb3fa05a14a56758d4cf
   );
 }
 
