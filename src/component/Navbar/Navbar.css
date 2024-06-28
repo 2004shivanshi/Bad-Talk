@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 0.5rem;
+  margin-top: 0rem;
   height: 4rem;
   padding: 0 1rem;
   position: sticky;
@@ -32,6 +32,7 @@
   cursor: pointer;
   color: #fff;
   transition: opacity 0.3s ease, transform 0.2s ease;
+  margin-right: 2.5rem;
 }
 
 .Nav_center a:hover {
@@ -115,6 +116,7 @@
     width: 100%;
     text-align: center;
     padding: 0.8rem 0;
+    margin: 0 auto;
   }
 
   .Nav_right {

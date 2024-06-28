@@ -15,6 +15,7 @@
 .breakdown {
   margin-top: 0.5rem;
 }
+
 .event_details p {
   font-size: 1.2rem;
   font-weight: 500;
@@ -25,6 +26,7 @@
   max-width: 40%;
   border-radius: 1rem;
 }
+
 .analysis {
   color: rgba(255, 0, 43, 0.874);
 }
@@ -48,11 +50,16 @@
   margin-top: 1rem;
   font-size: 1.5rem;
   box-shadow: 2px 3px 5px rgba(110, 57, 47, 0.164);
-  text-align: center;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  text-align: center; /* Center text horizontally */
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Button hover animation */
+}
+
+.event_details button:hover {
+  background-color: darkred;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .event_details button:active {

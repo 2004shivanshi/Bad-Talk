@@ -63,7 +63,7 @@ const Slide = () => {
 
   return (
     <div>
-      <h1 className='heading'>Our Team</h1>
+      <h1 className='heading_ourtm'>Our Team</h1>
       <div>
         {/* Tech Team Section */}
         <div className='card'>
@@ -73,7 +73,7 @@ const Slide = () => {
               {data.map((d, index) => (
                 <div key={index} className='custom-card'>
                   <div className='custom-image-container'>
-                    <img src={d.img} alt={d.Name} className='custom-image' />
+                    <img src={d.img} alt={d.Name} className='custom-image no-fade' />
                   </div>
                   <div className='additional-content'>
                     <p>{d.Name}</p>
@@ -92,7 +92,7 @@ const Slide = () => {
               {data.map((d, index) => (
                 <div key={index} className='custom-card'>
                   <div className='custom-image-container'>
-                    <img src={d.img} alt={d.Name} className='custom-image' />
+                    <img src={d.img} alt={d.Name} className='custom-image no-fade' />
                   </div>
                   <div className='additional-content'>
                     <p>{d.Name}</p>
@@ -103,7 +103,6 @@ const Slide = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };

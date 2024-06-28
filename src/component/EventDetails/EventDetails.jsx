@@ -1,9 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./EventDetails.css";
 
 function EventDetails() {
+  const navigate = useNavigate();
+
+  const handleRegister = () => {
+    navigate("/register");
+  };
+
   return (
-    <div className="event_details">
+    <section className="event_details">
       <div className="breakdown">
         <h1>
           BREAKDOWN <span className="analysis">ANALYSIS</span>
@@ -17,8 +24,8 @@ function EventDetails() {
       <p>
         <b>Event Date</b> - 08 August 2024
       </p>
-      <button>Register</button>
-    </div>
+      <button onClick={handleRegister}>Register</button>
+    </section>
   );
 }
 

@@ -1,11 +1,17 @@
 import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import "./Navbar.css";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
+  };
+
+  const handleRegisterClick = () => {
+    navigate('/Register');
   };
 
   return (
@@ -21,7 +27,7 @@ function Navbar() {
         <a href="#contact">Contact Us</a>
       </div>
       <div className="Nav_right">
-        <button>Register</button>
+        <button onClick={handleRegisterClick}>Register</button>
       </div>
       <div className="Nav_toggler" onClick={toggleNavbar}>
         &#9776;

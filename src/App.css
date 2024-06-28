@@ -40,3 +40,53 @@ padding: 0;
 .read-the-docs {
   color: #888;
 }
+
+
+
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure images are centered */
+img {
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Define the fading and transition effects */
+section, img {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
+section.visible, img.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Exclude Slide component from fading */
+.no-fade {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@media (max-width: 768px) {
+  .section,
+  .img {
+    opacity: 1;
+    transform: translateX(0);
+    transition: none; /* Remove transition on small screens */
+  }
+}

@@ -3,10 +3,10 @@
   box-sizing: border-box;
 }
 
-.heading {
+.heading_ourtm {
   color: red; /* Text color */
   text-align: center; /* Center align the text */
-  font-size: 36px; /* Font size */
+  font-size: 4rem; /* Font size */
   font-weight: bold; /* Bold text */
   margin-top: 20px; /* Top margin */
   margin-bottom: 20px; /* Bottom margin */
@@ -20,6 +20,7 @@ body {
   color: white; /* Text color */
   margin: 0;
   padding: 0;
+  
 }
 
 .card {
