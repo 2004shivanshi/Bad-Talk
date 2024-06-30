@@ -55,6 +55,7 @@ body {
   text-align: justify;
   transition: opacity 0.3s ease-out;
   opacity: 0; /* Initially hidden */
+  font-size: 1.1rem;
 }
 
 .AboutUsInnerContainer {

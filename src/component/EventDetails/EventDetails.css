@@ -23,8 +23,9 @@
 
 .event_details img {
   margin: 1rem 0;
-  max-width: 40%;
+  max-width: 50%;
   border-radius: 1rem;
+  background: transparent;
 }
 
 .analysis {
@@ -40,7 +41,7 @@
 }
 
 .event_details button {
-  width: 8rem;
+  width: 9 rem;
   height: 3rem;
   border: none;
   border-radius: 8px;
@@ -54,7 +55,8 @@
   display: flex; /* Enable flexbox */
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
-  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Button hover animation */
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease; /* Button hover animation */
 }
 
 .event_details button:hover {
@@ -63,7 +65,7 @@
 }
 
 .event_details button:active {
-  transform: scale(0.95);
+  transform: scale(0.9);
 }
 
 /* Media Queries for responsiveness */
@@ -128,9 +130,7 @@
   }
 
   .event_details button {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0.6rem 1rem;
   }
 }
-
-

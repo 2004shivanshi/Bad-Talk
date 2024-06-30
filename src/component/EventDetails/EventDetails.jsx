@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./EventDetails.css";
-import event from "../../assets/event.jpg"
+import event from "../../assets/bad_taks_front_page.png"
 
 function EventDetails() {
   const navigate = useNavigate();
@@ -12,12 +12,12 @@ function EventDetails() {
 
   return (
     <section className="event_details">
-      <div className="breakdown">
+      {/* <div className="breakdown">
         <h1>
           BREAKDOWN <span className="analysis">ANALYSIS</span>
         </h1>
         <h1 className="decision">DECISION</h1>
-      </div>
+      </div> */}
       <img src={event} alt="Event" />
       <p>
         <b>Event Venue</b> - Audi-2 IPS Academy Rajendra Nagar, Indore

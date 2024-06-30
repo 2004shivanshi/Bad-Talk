@@ -18,7 +18,7 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   background: linear-gradient(rgb(14, 13, 13), rgb(27, 28, 30));
-  background-image: url(./assets/background_in_space.webp);
+  /* background-image: url(./assets/background_in_space.webp); */
   height: 100%;
 
 }

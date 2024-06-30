@@ -13,10 +13,13 @@
   top: 0;
   z-index: 10;
   backdrop-filter: blur(10px);
+  text-align: center;
 }
 
 .Nav_left img {
-  height: 40px;
+  height: 60px;
+  margin-top: 5px;
+  cursor: pointer;
 }
 
 .Nav_center {
@@ -50,7 +53,9 @@
   background-color: tomato;
   cursor: pointer;
   font-size: 1.1rem;
-  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+    margin-top: 0;
 }
 
 .Nav_right button:hover {
@@ -71,7 +76,11 @@
   cursor: pointer;
   padding: 2px 8px;
   margin: 10px;
-  background: linear-gradient(to right, rgb(218, 88, 65), rgba(179, 75, 18, 0.954));
+  background: linear-gradient(
+    to right,
+    rgb(218, 88, 65),
+    rgba(179, 75, 18, 0.954)
+  );
   color: white;
   border: 1px solid rgb(117, 23, 7);
   border-radius: 0.5rem;

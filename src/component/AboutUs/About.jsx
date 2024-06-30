@@ -19,10 +19,19 @@ export default function About() {
         <div className="AboutUs">
           <p className="AboutUsHeading">HEADING</p>
           <p className="AboutUsText">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
-            adipisci recusandae molestiae autem neque distinctio nostrum, nihil
-            animi, non obcaecati dicta architecto error, voluptatibus aliquid.
-            Quidem ipsum perspiciatis omnis ullam!{" "}
+            Our mission is to empower students by providing mentorship,
+            experiential learning, and meaningful connections. With over 8000
+            students, we prioritize hands-on experience through expert sessions,
+            offering invaluable insights and practical exposure. BAD Business
+            guides students on their self-discovery journey, helping them make
+            informed decisions and grow personally. <br /> Benefits of Participating in
+            B.A.D. Talks - When you participate in the event, you will gain
+            access to a vibrant community of like-minded individuals. Networking
+            opportunities Live projects and free resources to enhance your
+            skills and elevate your portfolio. We believe in the keys to
+            successful youth: passion, resilience, continuous learning, and
+            practical exposure. Join us to confidently navigate your path to
+            success!
           </p>
         </div>
       </div>
